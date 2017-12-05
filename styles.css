@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:700');
+
+body{
+    background-color: lightblue;
+    font-family: 'Lora', serif;  
+}
+
+.container{
+    padding:100px;
+    background-color:antiquewhite;
+    height:75%;
+    border-radius:25px;
+    margin:auto;
+   
+}
+
+.app-container{
+    height:100%;
+}
+
+.centering{
+    display:flex;
+    height:720px;
+}
+
+a{
+    text-decoration: none;
+    color:brown;
+   
+  -o-transition:color 1s ease-out;
+  -ms-transition:color 1s ease-out;
+  -moz-transition:color 1s ease-out;
+  -webkit-transition:color 1s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color 1s ease-out;
+
+}
+a:hover{
+    color:burlywood;
+    
+  -o-transition:color 1s ease-out;
+  -ms-transition:color 1s ease-out;
+  -moz-transition:color 1s ease-out;
+  -webkit-transition:color 1s ease-out;
+  /* ...and now override with proper CSS property */
+  transition:color 1s ease-out;
+    
+}
+
+.headline{
+    font-weight:800;
+    text-decoration: none;
+    
+}
+.info{
+    float:right;
+}
+.author{
+    float:right;
+}
+
+h3{
+    display:inline;
+}
